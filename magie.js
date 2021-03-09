@@ -14,7 +14,7 @@ for (var i = 0; i < modeButtons.length; i++){
 		modeButtons[0].classList.remove("selected");
 		modeButtons[1].classList.remove("selected");
 		this.classList.add("selected");
-		this.textContent === "Easy" ? numOfSquares = 3: numOfSquares = 6;
+		this.textContent === "Facile" ? numOfSquares = 3: numOfSquares = 6;
 		reset();
 	});
 }
@@ -107,7 +107,7 @@ for (var i = 0; i < squares.length; i++) {
 			messageDisplay.textContent ="C'est la bonne couleur !";
 			changeColors(clickedColor);
 			h1.style.backgroundColor = pickedColor;
-			resetButton.textContent = "Play Again ?";
+			resetButton.textContent = "Rejouer ?";
 		} else {
 			this.style.backgroundColor = "#232323";
 			messageDisplay.textContent = "Essayer une autre fois";
