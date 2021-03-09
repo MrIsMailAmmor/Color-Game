@@ -1,5 +1,6 @@
 # Color-Game
 
+Made with JavaScript
 
 FUN RGB Game to Learn about how to read RGB code (X,X,X)
 
